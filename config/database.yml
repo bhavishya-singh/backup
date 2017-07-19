@@ -7,6 +7,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  username: bhavishyasingh
+  password: thispassapp 
   pool: 5
   timeout: 5000
 
