@@ -22,3 +22,4 @@
 
 .rbenv-vars.swp
 /tmp
+.rbenv-vars
