@@ -1,0 +1,39 @@
+I, [2017-07-20T13:50:08.876808 #2696]  INFO -- : Refreshing Gem list
+I, [2017-07-20T13:50:10.820876 #2696]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-20T13:50:10.820996 #2696]  INFO -- : worker=0 spawning...
+I, [2017-07-20T13:50:10.822195 #2696]  INFO -- : worker=1 spawning...
+I, [2017-07-20T13:50:10.822759 #2700]  INFO -- : worker=0 spawned pid=2700
+I, [2017-07-20T13:50:10.822888 #2700]  INFO -- : worker=0 ready
+I, [2017-07-20T13:50:10.823954 #2696]  INFO -- : master process ready
+I, [2017-07-20T13:50:10.832047 #2703]  INFO -- : worker=1 spawned pid=2703
+I, [2017-07-20T13:50:10.832363 #2703]  INFO -- : worker=1 ready
+I, [2017-07-20T13:50:36.921565 #2696]  INFO -- : reaped #<Process::Status: pid 2700 exit 0> worker=0
+I, [2017-07-20T13:50:36.921662 #2696]  INFO -- : reaped #<Process::Status: pid 2703 exit 0> worker=1
+I, [2017-07-20T13:50:36.921738 #2696]  INFO -- : master complete
+I, [2017-07-20T13:58:34.928643 #3367]  INFO -- : Refreshing Gem list
+I, [2017-07-20T13:58:36.758784 #3367]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-20T13:58:36.758940 #3367]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-20T13:58:36.759023 #3367]  INFO -- : worker=0 spawning...
+I, [2017-07-20T13:58:36.760247 #3367]  INFO -- : worker=1 spawning...
+I, [2017-07-20T13:58:36.761017 #3367]  INFO -- : master process ready
+I, [2017-07-20T13:58:36.768085 #3370]  INFO -- : worker=0 spawned pid=3370
+I, [2017-07-20T13:58:36.768223 #3370]  INFO -- : worker=0 ready
+I, [2017-07-20T13:58:36.768766 #3372]  INFO -- : worker=1 spawned pid=3372
+I, [2017-07-20T13:58:36.768869 #3372]  INFO -- : worker=1 ready
+I, [2017-07-20T14:09:03.143057 #3367]  INFO -- : reaped #<Process::Status: pid 3370 exit 0> worker=0
+I, [2017-07-20T14:09:03.143162 #3367]  INFO -- : reaped #<Process::Status: pid 3372 exit 0> worker=1
+I, [2017-07-20T14:09:03.143223 #3367]  INFO -- : master complete
+I, [2017-07-20T14:09:29.139131 #3795]  INFO -- : Refreshing Gem list
+I, [2017-07-20T14:09:31.027141 #3795]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-20T14:09:31.027288 #3795]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-20T14:09:31.027378 #3795]  INFO -- : worker=0 spawning...
+I, [2017-07-20T14:09:31.028625 #3795]  INFO -- : worker=1 spawning...
+I, [2017-07-20T14:09:31.029380 #3795]  INFO -- : master process ready
+I, [2017-07-20T14:09:31.036124 #3799]  INFO -- : worker=0 spawned pid=3799
+I, [2017-07-20T14:09:31.036241 #3799]  INFO -- : worker=0 ready
+I, [2017-07-20T14:09:31.036765 #3801]  INFO -- : worker=1 spawned pid=3801
+I, [2017-07-20T14:09:31.036866 #3801]  INFO -- : worker=1 ready
+Passing 'info' command to redis as is; administrative commands cannot be effectively namespaced and should be called on the redis connection directly; passthrough has been deprecated and will be removed in redis-namespace 2.0 (at /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/resque-1.27.4/lib/resque/data_store.rb:59:in `method_missing')
+I, [2017-07-20T17:27:45.650212 #3795]  INFO -- : reaped #<Process::Status: pid 3799 exit 0> worker=0
+I, [2017-07-20T17:27:45.750650 #3795]  INFO -- : reaped #<Process::Status: pid 3801 exit 0> worker=1
+I, [2017-07-20T17:27:45.750755 #3795]  INFO -- : master complete
