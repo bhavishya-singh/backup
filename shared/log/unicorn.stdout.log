@@ -28,3 +28,49 @@ The latest bundler is 1.15.2, but you are currently running 1.15.1.
 To update, run `gem install bundler`
 The latest bundler is 1.15.2, but you are currently running 1.15.1.
 To update, run `gem install bundler`
+I, [2017-07-20T17:31:59.010064 #6102]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:31:59.679975 #6099]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:32:00.510109 #6102]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+The latest bundler is 1.15.2, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+The latest bundler is 1.15.2, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+I, [2017-07-20T17:33:48.915633 #6360]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:33:49.412187 #6357]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:34:44.435731 #6357]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+.......................................................................222
+The latest bundler is 1.15.2, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+The latest bundler is 1.15.2, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+I, [2017-07-20T17:43:15.154235 #6744]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:43:15.819126 #6747]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:43:16.579139 #6744]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+
+
+
+
+
+
+.......................................................................222
+I, [2017-07-20T17:46:25.240333 #6744]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:46:25.875121 #6747]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-20T17:46:27.080108 #6744]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+
+
+
+
+.......................................................................222
