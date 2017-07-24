@@ -1,12 +1,6 @@
 <div class="competitors_result_card effect1">
   <div class="image_competitor">
-    <% if competitor.profile_picture && competitor.provider == nil%>
-        <img src="/uploads/<%= competitor.profile_picture %>">
-    <% elsif competitor.provider != nil %>
         <img src="<%= competitor.profile_picture %>">
-    <% else %>
-        <img src="/uploads/user.png" >
-    <% end %>
   </div>
   <div class="details">
     <h2><%= competitor.user_name%></h2>

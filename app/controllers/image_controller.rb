@@ -16,9 +16,15 @@ class ImageController < ApplicationController
       end
     end while user
 
-    File.open(Rails.root.join('public', 'uploads', temp_file_name), 'wb') do |file|
-      file.write(temp_file.read)
-    end
+    s3 = Aws::S3::Resource.new
+    obj = s3.bucket('votemenow').object('uploads/users/'+temp_file_name)
+
+
+    obj.put({
+                acl: 'public-read',
+                body: params[:user_image].read ,
+            })
+
 
     return render :json => {:file_name => temp_file_name}
 
@@ -33,9 +39,15 @@ class ImageController < ApplicationController
           temp_file_name = SecureRandom.hex+ ".png"
         end
       end while entry
-      File.open(Rails.root.join('public', 'uploads/public_contestants', temp_file_name), 'wb') do |file|
-        file.write(temp_file.read)
-      end
+      
+      s3 = Aws::S3::Resource.new
+      obj = s3.bucket('votemenow').object('uploads/public_contestants/'+temp_file_name)
+
+
+      obj.put({
+                acl: 'public-read',
+                body: params[:public_poll_contestant_image].read ,
+            })
       return render :json => {:file_name => temp_file_name}
   end
 
@@ -52,10 +64,18 @@ class ImageController < ApplicationController
         temp_file_name = SecureRandom.hex+ ".png"
       end
     end while cpoll
+    
 
-    File.open(Rails.root.join('public', 'uploads/public_poll_pictures', temp_file_name), 'wb') do |file|
-      file.write(temp_file.read)
-    end
+
+    s3 = Aws::S3::Resource.new
+    obj = s3.bucket('votemenow').object('uploads/public_poll_pictures/'+temp_file_name)
+
+
+    obj.put({
+                acl: 'public-read',
+                body: params[:public_poll_image].read ,
+            })
+
     return render :json => {:file_name => temp_file_name}
 
   end
@@ -71,9 +91,16 @@ class ImageController < ApplicationController
         temp_file_name = SecureRandom.hex+ ".png"
       end
     end while cgroup
-    File.open(Rails.root.join('public', 'uploads/group_pictures', temp_file_name), 'wb') do |file|
-      file.write(temp_file.read)
-    end
+    
+    s3 = Aws::S3::Resource.new
+    obj = s3.bucket('votemenow').object('uploads/group_pictures/'+temp_file_name)
+
+
+    obj.put({
+                acl: 'public-read',
+                body: params[:image].read ,
+            })
+
     return render :json => {:file_name => temp_file_name}
 
   end

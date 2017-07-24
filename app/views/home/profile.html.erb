@@ -3,10 +3,7 @@
   <div id="inner-left">
     <div id="profile-image">
       <% if current_user.provider == nil %>
-          <img src="/uploads/<%= @user.profile_picture %>" >
-      <% else %>
           <img src="<%= @user.profile_picture %>" >
-      <% end %>
     </div>
     <div id="profile-name">
       <h2><%= @user.first_name + " "%><%= @user.last_name %></h2>

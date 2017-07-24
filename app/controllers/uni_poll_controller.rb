@@ -15,10 +15,10 @@ class UniPollController < ApplicationController
 		contestants.each do |contestant|
 			@mapping = @poll.uni_poll_competitor_mappings.create(:competitor_name => contestant, :contestant_tag_line => params[:contestant_tag_line][contestant_no])
 			if params[:contestant_pic_set][contestant_no] != 'false'
-				@mapping.contestant_picture = params[:contestant_pic_set][contestant_no]
+				@mapping.contestant_picture ="https://s3.ap-south-1.amazonaws.com/votemenow/uploads/public_contestants/"+ params[:contestant_pic_set][contestant_no]
 				@mapping.save!
 			else
-				@mapping.contestant_picture = "user.png"
+				@mapping.contestant_picture ="https://s3.ap-south-1.amazonaws.com/votemenow/uploads/public_contestants/"+ "user.png"
 				@mapping.save!
 			end
 			contestant_no = contestant_no + 1;
@@ -32,7 +32,7 @@ class UniPollController < ApplicationController
 		end
 		@poll.save!
 		if params["public_poll_hidden_image"] != 'not_set'
-			@poll.poll_picture = params["public_poll_hidden_image"]
+			@poll.poll_picture = "https://s3.ap-south-1.amazonaws.com/votemenow/uploads/public_poll_pictures/"+  params["public_poll_hidden_image"]
 			@poll.save!
 		end
 		return redirect_to '/user_home'

@@ -36,11 +36,7 @@
             </div>
             <div class="user-image" id="<%=current_user.id%>">
               <div class="dropdown">
-                <% if current_user.provider == nil %>
-                    <img src="/uploads/<%= current_user.profile_picture %>" style="height:34px;width:34px">
-                <% else %>
                     <img src="<%= current_user.profile_picture %>" style="height:34px;width:34px">
-                <% end %>
                 <div class="dropdown-content">
                   <%= link_to "Profile" , "/profile/#{current_user.user_name}"%>
                   <%= link_to "Create Group", :groups_new %>
@@ -102,9 +98,17 @@
   </div>
 </div>
 </div>
+<div id="load-overlay">
+  <div class="three col">
+    <div class="loader" id="loader-5">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</div>
 <script type="text/javascript" src="/slick/slick.min.js"></script>
 </body>
 </html>
 
-</body>
-</html>

@@ -211,9 +211,9 @@ function onload(){
                             socket.emit("push_notification", {group_member: result.group_member, group_id: result.group_id, group_poll_id: result.group_poll_id, group_poll_name: result.group_poll_name });
                             socket.emit("group_poll_created",{ group_id: result.group_id, group_poll_id: result.group_poll_id, group_poll_name: result.group_poll_name });
                             console.log("emitede");
-                            window.location.replace("http://localhost:3000/group/"+result.group_id+"/show");
+                            window.location.replace("http://13.126.49.4/group/"+result.group_id+"/show");
                         }else{
-                            window.location.replace("http://localhost:3000/group/"+result.group_id+"/show");
+                            window.location.replace("http://13.126.49.4/group/"+result.group_id+"/show");
                         }
                         // window.location.replace("http://localhost:3000/group/"+result.group_id+"/show");
                     },
@@ -557,6 +557,7 @@ function onload(){
 
  	$("#new_group").submit(function (event) {
         event.preventDefault();
+	    $("#load-overlay").attr('style', 'display: -webkit-flex; display: flex');
  	    console.log("try to submit");
  	    if(group_image_blob){
             var xhr = new XMLHttpRequest();
@@ -579,13 +580,17 @@ function onload(){
 
     $("#unipoll_form").submit(function (event) {
         console.log("check 1");
+	$("#load-overlay").attr('style', 'display: -webkit-flex; display: flex');
         event.preventDefault();
         if(public_poll_image_blob){
+		console.log("a");
             var xhr = new XMLHttpRequest();
             var form = new FormData();
             xhr.onreadystatechange = function() {
+		console.log("b");
+		console.log(xhr.readyState);
                 if (xhr.readyState === 4) {
-                    console.log(xhr.response); //Outputs a DOMString by default
+                    console.log(xhr.response);
                     var response = JSON.parse(xhr.responseText);
                     $('#public_poll_hidden_image').val(response.file_name);
                     uploadcontestantpics();
@@ -603,6 +608,7 @@ function onload(){
     
     function uploadcontestantpics() {
         var last_pic = -1;
+	$("#load-overlay").attr('style', 'display: -webkit-flex; display: flex');
         $('.contestant_pic_preview').each(function (index) {
             if($($(this).find('img')).attr('src') != ""){
                 last_pic = index;
@@ -617,6 +623,7 @@ function onload(){
                 if($($(this).find('img')).attr('src') != ""){
                     $($(this).find('img')).croppie('result',{
                         type:   'blob',
+			quality: 0.7,
                         format: 'png'
                     }).then(function (blob) {
                         var xhr = new XMLHttpRequest();
@@ -643,6 +650,7 @@ function onload(){
 
     $("#new_user").submit(function (event) {
         event.preventDefault();
+	$("#load-overlay").attr('style', 'display: -webkit-flex; display: flex');
         console.log("try to submit");
         if(user_image_blob){
             var xhr = new XMLHttpRequest();
@@ -681,7 +689,7 @@ function GetElementInsideContainer(containerID, childID) {
 $(document).ready(onload);
 $(document).on('turbolinks:load',onload);
 
-var socket_server = "http://localhost:8000";
+var socket_server = "http://35.154.43.37/";
 var socket;
 
 
@@ -828,6 +836,7 @@ function callupdatefunction(croppe,input) {
     console.log("update");
     $("#preview_image").croppie('result',{
         type:   'blob',
+	quality: 0.7,
         format: 'png'
     }).then(function (blob) {
         group_image_blob = blob;
@@ -837,6 +846,7 @@ function callupdatefunction(croppe,input) {
 function userImageUpdate(croppe,input) {
     $("#user_image_preview").croppie('result',{
         type:   'blob',
+	quality: 0.7,
         format: 'png'
     }).then(function (blob) {
         user_image_blob = blob;
@@ -846,6 +856,7 @@ function userImageUpdate(croppe,input) {
 function ppollImageUpdate(croppe,input) {
     $("#public_poll_image_preview").croppie('result',{
         type:   'blob',
+	quality: 0.7,
         format: 'png'
     }).then(function (blob) {
         public_poll_image_blob = blob;

@@ -11,7 +11,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   def create
     super
     if params["user"]["hidden_image"] != "not_set"
-      resource.profile_picture = params["user"]["hidden_image"]
+      resource.profile_picture = "https://s3.ap-south-1.amazonaws.com/votemenow/uploads/users/" + params["user"]["hidden_image"]
       resource.save!
     end
   end

@@ -17,9 +17,9 @@ class GroupsController < ApplicationController
   def create
     @group = Group.create(group_params)
     if params["group"]["hidden_image"] != "create"
-      @group.group_picture = params["group"]["hidden_image"]
+      @group.group_picture = "https://s3.ap-south-1.amazonaws.com/votemenow/uploads/group_pictures/"+ params["group"]["hidden_image"]
     else
-      @group.group_picture = "group.png"
+      @group.group_picture = "https://s3.ap-south-1.amazonaws.com/votemenow/uploads/group_pictures/"+ "group.png"
     end
     @group.save!
     GroupUserMapping.create(:user_id => current_user.id, :group_id => @group.id)

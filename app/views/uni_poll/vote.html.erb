@@ -6,11 +6,7 @@
 <% @contestants_mapping.each do |mapping| %>
 
         <div class="user_image_button effect2" id="<%= mapping.id %>">
-          <% if mapping.contestant_picture %>
-              <img src="/uploads/public_contestants/<%=mapping.contestant_picture%>">
-          <%else%>
-              <img src="/uploads/user.png">
-          <% end %>
+              <img src="<%=mapping.contestant_picture%>">
           <p><%= mapping.competitor_name %></p>
           <marquee><%= mapping.contestant_tag_line %></marquee>
         </div>
