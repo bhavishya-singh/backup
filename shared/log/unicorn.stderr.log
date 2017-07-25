@@ -293,3 +293,65 @@ I, [2017-07-24T12:28:09.304412 #29086]  INFO -- : worker=1 ready
 I, [2017-07-24T12:28:40.848343 #29080]  INFO -- : reaped #<Process::Status: pid 29086 exit 0> worker=1
 I, [2017-07-24T12:28:40.948684 #29080]  INFO -- : reaped #<Process::Status: pid 29083 exit 0> worker=0
 I, [2017-07-24T12:28:40.948795 #29080]  INFO -- : master complete
+I, [2017-07-24T12:57:42.728711 #29502]  INFO -- : Refreshing Gem list
+I, [2017-07-24T12:57:44.668306 #29502]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-24T12:57:44.668459 #29502]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-24T12:57:44.668545 #29502]  INFO -- : worker=0 spawning...
+I, [2017-07-24T12:57:44.669835 #29502]  INFO -- : worker=1 spawning...
+I, [2017-07-24T12:57:44.670425 #29505]  INFO -- : worker=0 spawned pid=29505
+I, [2017-07-24T12:57:44.670530 #29505]  INFO -- : worker=0 ready
+I, [2017-07-24T12:57:44.671323 #29502]  INFO -- : master process ready
+I, [2017-07-24T12:57:44.679987 #29508]  INFO -- : worker=1 spawned pid=29508
+I, [2017-07-24T12:57:44.680086 #29508]  INFO -- : worker=1 ready
+I, [2017-07-24T13:08:25.985289 #29502]  INFO -- : reaped #<Process::Status: pid 29505 exit 0> worker=0
+I, [2017-07-24T13:08:25.985379 #29502]  INFO -- : reaped #<Process::Status: pid 29508 exit 0> worker=1
+I, [2017-07-24T13:08:25.985447 #29502]  INFO -- : master complete
+I, [2017-07-24T13:08:40.308686 #29814]  INFO -- : Refreshing Gem list
+I, [2017-07-24T13:08:42.219070 #29814]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-24T13:08:42.219216 #29814]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-24T13:08:42.219303 #29814]  INFO -- : worker=0 spawning...
+I, [2017-07-24T13:08:42.220636 #29814]  INFO -- : worker=1 spawning...
+I, [2017-07-24T13:08:42.221385 #29814]  INFO -- : master process ready
+I, [2017-07-24T13:08:42.228122 #29817]  INFO -- : worker=0 spawned pid=29817
+I, [2017-07-24T13:08:42.228239 #29817]  INFO -- : worker=0 ready
+I, [2017-07-24T13:08:42.228944 #29819]  INFO -- : worker=1 spawned pid=29819
+I, [2017-07-24T13:08:42.229190 #29819]  INFO -- : worker=1 ready
+I, [2017-07-25T04:52:47.409415 #29814]  INFO -- : reaped #<Process::Status: pid 29817 exit 0> worker=0
+I, [2017-07-25T04:52:47.409511 #29814]  INFO -- : reaped #<Process::Status: pid 29819 exit 0> worker=1
+I, [2017-07-25T04:52:47.409569 #29814]  INFO -- : master complete
+I, [2017-07-25T04:53:06.676748 #2091]  INFO -- : Refreshing Gem list
+I, [2017-07-25T04:53:08.600163 #2091]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-25T04:53:08.600316 #2091]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-25T04:53:08.600404 #2091]  INFO -- : worker=0 spawning...
+I, [2017-07-25T04:53:08.601688 #2091]  INFO -- : worker=1 spawning...
+I, [2017-07-25T04:53:08.602284 #2094]  INFO -- : worker=0 spawned pid=2094
+I, [2017-07-25T04:53:08.602399 #2094]  INFO -- : worker=0 ready
+I, [2017-07-25T04:53:08.603221 #2091]  INFO -- : master process ready
+I, [2017-07-25T04:53:08.612157 #2097]  INFO -- : worker=1 spawned pid=2097
+I, [2017-07-25T04:53:08.612295 #2097]  INFO -- : worker=1 ready
+I, [2017-07-25T05:15:01.017227 #2091]  INFO -- : reaped #<Process::Status: pid 2094 exit 0> worker=0
+I, [2017-07-25T05:15:01.017334 #2091]  INFO -- : reaped #<Process::Status: pid 2097 exit 0> worker=1
+I, [2017-07-25T05:15:01.017397 #2091]  INFO -- : master complete
+I, [2017-07-25T05:15:23.144711 #2380]  INFO -- : Refreshing Gem list
+I, [2017-07-25T05:15:25.065511 #2380]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-25T05:15:25.065678 #2380]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-25T05:15:25.065764 #2380]  INFO -- : worker=0 spawning...
+I, [2017-07-25T05:15:25.067059 #2380]  INFO -- : worker=1 spawning...
+I, [2017-07-25T05:15:25.068271 #2380]  INFO -- : master process ready
+I, [2017-07-25T05:15:25.075733 #2383]  INFO -- : worker=0 spawned pid=2383
+I, [2017-07-25T05:15:25.075842 #2383]  INFO -- : worker=0 ready
+I, [2017-07-25T05:15:25.076367 #2386]  INFO -- : worker=1 spawned pid=2386
+I, [2017-07-25T05:15:25.076475 #2386]  INFO -- : worker=1 ready
+I, [2017-07-25T05:35:09.686378 #2380]  INFO -- : reaped #<Process::Status: pid 2383 exit 0> worker=0
+I, [2017-07-25T05:35:09.686582 #2380]  INFO -- : reaped #<Process::Status: pid 2386 exit 0> worker=1
+I, [2017-07-25T05:35:09.686646 #2380]  INFO -- : master complete
+I, [2017-07-25T05:35:35.942565 #2749]  INFO -- : Refreshing Gem list
+I, [2017-07-25T05:35:37.899742 #2749]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-07-25T05:35:37.900467 #2749]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-07-25T05:35:37.900560 #2749]  INFO -- : worker=0 spawning...
+I, [2017-07-25T05:35:37.901847 #2749]  INFO -- : worker=1 spawning...
+I, [2017-07-25T05:35:37.902445 #2752]  INFO -- : worker=0 spawned pid=2752
+I, [2017-07-25T05:35:37.902556 #2752]  INFO -- : worker=0 ready
+I, [2017-07-25T05:35:37.903378 #2749]  INFO -- : master process ready
+I, [2017-07-25T05:35:37.912152 #2755]  INFO -- : worker=1 spawned pid=2755
+I, [2017-07-25T05:35:37.912296 #2755]  INFO -- : worker=1 ready

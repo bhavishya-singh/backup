@@ -34,9 +34,12 @@ function onload(){
 
 
     var profile_image = document.getElementsByClassName("user-image");
-    if(profile_image){
+    console.log(profile_image.length);
+    if(profile_image[0] !== undefined){
+	console.log("check out thus");
         var current_user_id = $(profile_image).attr('id');
         if(socket === undefined){
+            console.log(current_user_id);
             socket =  io(socket_server,{query :"current_user_id="+current_user_id});
         }
         socket.on("pushed_notification",function (result) {
@@ -171,7 +174,7 @@ function onload(){
         socket.on('emit_group_poll',function(result){
             var folder = document.getElementById("group_polls_add");
             if(folder){
-                $(folder).prepend("<div class='items'><a href='/group_polls/"+result.group_poll_id+"/vote'><div class='item-name'><h2>"+result.group_poll_name+"</h2></div></a><div class='item-links'><a href='/group_polls/"+result.group_poll_id+"/delete_user'>Delete</a></div></div>");
+		$("<div class='items'><a href='/group_polls/"+result.group_poll_id+"/vote'><div class='item-name'><h2>"+result.group_poll_name+"</h2></div></a><div class='item-links'><a href='/group_polls/"+result.group_poll_id+"/delete_user'>Delete</a></div></div>").insertAfter($(".group_heading"));
             }
         });
     }
