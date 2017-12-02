@@ -341,3 +341,317 @@ The latest bundler is 1.15.3, but you are currently running 1.15.1.
 To update, run `gem install bundler`
 The latest bundler is 1.15.3, but you are currently running 1.15.1.
 To update, run `gem install bundler`
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-07-25T12:14:28.816414 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-07-25T18:04:50.281917 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-07-25T23:05:41.802172 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-07-28T02:53:14.124046 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-07-29T07:36:21.372156 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-29T07:36:22.062060 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-29T07:36:23.064178 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-07-29T10:04:56.044320 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-07-30T01:11:09.710034 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-30T01:11:10.340062 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-30T01:11:10.980196 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+
+
+
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+.......................................................................222
+I, [2017-07-31T17:30:31.654039 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-31T17:30:33.219842 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-31T17:34:17.217716 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-31T17:34:18.819091 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-31T17:34:22.497874 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+
+
+
+.......................................................................222
+I, [2017-07-31T17:44:42.005263 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-31T17:44:44.753885 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-07-31T17:44:57.343069 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+
+
+
+.......................................................................222
+I, [2017-07-31T18:13:22.798817 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-02T09:07:35.000362 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-02T09:07:43.217860 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-06T03:07:02.240302 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-09T19:46:53.539787 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-09T19:46:54.041945 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-09T19:46:54.932214 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-08-10T22:04:46.128767 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-11T11:08:42.596527 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-11T11:08:43.333932 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-12T00:40:11.375979 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-13T12:16:33.086313 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-14T06:05:47.669361 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-15T23:26:37.338922 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-16T07:41:53.523115 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-16T07:41:54.074803 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-16T07:42:05.038227 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-16T07:42:05.358614 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-16T07:42:29.929666 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+
+
+
+
+
+
+
+I, [2017-08-19T07:13:24.296298 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-20T19:09:04.437277 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-21T16:07:43.709935 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-08-27T05:43:05.964556 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-08-28T00:33:37.145130 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-09-02T06:24:52.515435 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-02T21:33:28.256531 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-03T19:21:35.675943 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-09T15:01:01.247523 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-11T18:09:44.736101 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-17T01:50:43.636115 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-09-17T20:18:16.504843 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-19T13:42:59.649268 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-20T10:25:57.838293 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-09-24T17:20:05.736676 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-09-29T01:47:15.866556 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-08T09:29:44.236841 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-08T14:34:24.028032 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-10T01:03:38.389109 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-10T22:47:52.455015 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-15T21:15:34.011038 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-16T14:26:51.859132 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-20T04:47:50.486522 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-20T07:56:25.640861 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-20T07:56:25.990322 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-20T14:08:15.972296 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-21T05:52:24.780387 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-21T05:52:30.547217 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-23T22:35:49.142298 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-26T20:05:27.496295 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-10-28T15:02:04.969189 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-10-29T20:14:56.261298 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-02T16:50:03.656548 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-02T17:12:31.555617 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-02T17:12:32.005791 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-02T17:12:44.220611 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+I, [2017-11-02T17:12:44.831786 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+E, [2017-11-02T17:12:44.832074 #2752] ERROR -- omniauth: (facebook) Authentication failure! no_authorization_code: OmniAuth::Strategies::Facebook::NoAuthorizationCodeError, must pass either a `code` (via URL or by an `fbsr_XXX` signed request cookie)
+ ******** it has been here-------------------------------------
+
+
+
+
+I, [2017-11-02T17:13:24.334346 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+E, [2017-11-02T17:13:24.334730 #2755] ERROR -- omniauth: (facebook) Authentication failure! csrf_detected: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+I, [2017-11-03T05:01:48.165428 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-03T05:01:49.198799 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-03T05:01:50.558559 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+.......................................................................222
+I, [2017-11-03T05:02:36.259990 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-03T05:02:37.044697 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-03T05:02:37.667776 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-11-03T06:53:02.792493 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-03T06:53:03.740461 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-03T06:53:04.312641 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-03T14:02:59.203205 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-06T08:51:20.678291 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-06T08:51:21.319002 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-06T08:51:32.367562 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+
+
+
+
+.......................................................................222
+I, [2017-11-06T08:52:23.229683 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-06T08:52:23.634633 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-06T08:52:24.223079 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-11-07T14:49:11.234260 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-07T14:49:11.684741 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-07T14:49:12.319176 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-11-08T06:18:12.667024 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-12T14:58:20.527424 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-13T12:51:44.714460 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-13T12:52:02.534605 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-14T15:24:20.570513 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-19T04:00:03.829195 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-27T23:42:06.919702 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-29T00:36:14.431687 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-29T18:34:08.320251 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-11-30T10:46:45.625246 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-30T10:46:46.890076 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-11-30T10:46:48.213164 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-12-01T13:16:37.228888 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:16:37.590576 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:16:38.236659 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T13:18:24.870482 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:18:26.491395 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:18:30.631593 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T13:21:01.023819 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:21:02.844729 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:21:04.231957 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:21:23.058693 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T13:21:30.584119 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T13:21:42.007264 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T16:21:16.844574 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T16:21:17.215917 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T16:21:17.786993 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T16:37:46.095836 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T16:37:46.442535 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T16:37:46.825954 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-12-01T17:10:47.000709 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:10:47.664984 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:10:47.975491 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T17:33:27.602530 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:33:33.711124 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:33:34.622760 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:33:34.870964 #2755]  INFO -- omniauth: (facebook) Callback phase initiated.
+E, [2017-12-01T17:33:34.871340 #2755] ERROR -- omniauth: (facebook) Authentication failure! csrf_detected: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+I, [2017-12-01T17:33:35.174398 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:33:36.238358 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+I, [2017-12-01T17:33:42.282338 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:33:42.887147 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-01T17:33:44.202724 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ :) here tooo
+I, [2017-12-02T03:30:48.216226 #2752]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-02T03:30:48.616214 #2755]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-02T03:30:49.031619 #2752]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+The latest bundler is 1.15.3, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+The latest bundler is 1.15.3, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+I, [2017-12-02T03:54:33.535591 #15483]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-02T03:54:34.349968 #15486]  INFO -- omniauth: (facebook) Request phase initiated.
+I, [2017-12-02T03:54:40.660811 #15483]  INFO -- omniauth: (facebook) Callback phase initiated.
+ ******** it has been here-------------------------------------
+The latest bundler is 1.15.3, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+The latest bundler is 1.15.3, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+The latest bundler is 1.15.3, but you are currently running 1.15.1.
+To update, run `gem install bundler`
+The latest bundler is 1.15.3, but you are currently running 1.15.1.
+To update, run `gem install bundler`

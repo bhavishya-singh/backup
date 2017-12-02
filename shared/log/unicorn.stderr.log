@@ -355,3 +355,84 @@ I, [2017-07-25T05:35:37.902556 #2752]  INFO -- : worker=0 ready
 I, [2017-07-25T05:35:37.903378 #2749]  INFO -- : master process ready
 I, [2017-07-25T05:35:37.912152 #2755]  INFO -- : worker=1 spawned pid=2755
 I, [2017-07-25T05:35:37.912296 #2755]  INFO -- : worker=1 ready
+E, [2017-08-11T20:08:06.591005 #2752] ERROR -- : app error: string contains null byte (ArgumentError)
+E, [2017-08-11T20:08:06.593949 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:22:in `extname'
+E, [2017-08-11T20:08:06.593979 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:22:in `block in create'
+E, [2017-08-11T20:08:06.593993 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:135:in `call'
+E, [2017-08-11T20:08:06.594004 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:135:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+E, [2017-08-11T20:08:06.594015 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+E, [2017-08-11T20:08:06.594026 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+E, [2017-08-11T20:08:06.594036 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+E, [2017-08-11T20:08:06.594047 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+E, [2017-08-11T20:08:06.594057 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+E, [2017-08-11T20:08:06.594067 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+E, [2017-08-11T20:08:06.594077 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+E, [2017-08-11T20:08:06.594121 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+E, [2017-08-11T20:08:06.594139 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+E, [2017-08-11T20:08:06.594151 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+E, [2017-08-11T20:08:06.594160 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+E, [2017-08-11T20:08:06.594170 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+E, [2017-08-11T20:08:06.594180 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+E, [2017-08-11T20:08:06.594190 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+E, [2017-08-11T20:08:06.594199 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+E, [2017-08-11T20:08:06.594208 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:606:in `process_client'
+E, [2017-08-11T20:08:06.594217 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:702:in `worker_loop'
+E, [2017-08-11T20:08:06.594226 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:549:in `spawn_missing_workers'
+E, [2017-08-11T20:08:06.594236 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:142:in `start'
+E, [2017-08-11T20:08:06.594245 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/unicorn-5.3.0/bin/unicorn:126:in `<top (required)>'
+E, [2017-08-11T20:08:06.594254 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/bin/unicorn:23:in `load'
+E, [2017-08-11T20:08:06.594263 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/bin/unicorn:23:in `<top (required)>'
+E, [2017-08-11T20:08:06.594272 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/cli/exec.rb:74:in `load'
+E, [2017-08-11T20:08:06.594281 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+E, [2017-08-11T20:08:06.594291 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/cli/exec.rb:27:in `run'
+E, [2017-08-11T20:08:06.594300 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/cli.rb:360:in `exec'
+E, [2017-08-11T20:08:06.594309 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+E, [2017-08-11T20:08:06.594319 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-08-11T20:08:06.594328 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor.rb:369:in `dispatch'
+E, [2017-08-11T20:08:06.594338 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/cli.rb:20:in `dispatch'
+E, [2017-08-11T20:08:06.594347 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor/base.rb:444:in `start'
+E, [2017-08-11T20:08:06.594357 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/cli.rb:10:in `start'
+E, [2017-08-11T20:08:06.594386 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/exe/bundle:35:in `block in <top (required)>'
+E, [2017-08-11T20:08:06.594401 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
+E, [2017-08-11T20:08:06.594411 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.15.1/exe/bundle:27:in `<top (required)>'
+E, [2017-08-11T20:08:06.594420 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/bin/bundle:23:in `load'
+E, [2017-08-11T20:08:06.594429 #2752] ERROR -- : /home/ubuntu/.rbenv/versions/2.2.3/bin/bundle:23:in `<main>'
+I, [2017-12-02T03:53:39.522867 #2749]  INFO -- : reaped #<Process::Status: pid 2752 exit 0> worker=0
+I, [2017-12-02T03:53:39.526801 #2749]  INFO -- : reaped #<Process::Status: pid 2755 exit 0> worker=1
+I, [2017-12-02T03:53:39.526874 #2749]  INFO -- : master complete
+I, [2017-12-02T03:53:46.620074 #15480]  INFO -- : Refreshing Gem list
+I, [2017-12-02T03:53:49.674828 #15480]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-12-02T03:53:49.675494 #15480]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-12-02T03:53:49.675601 #15480]  INFO -- : worker=0 spawning...
+I, [2017-12-02T03:53:49.676926 #15480]  INFO -- : worker=1 spawning...
+I, [2017-12-02T03:53:49.677517 #15483]  INFO -- : worker=0 spawned pid=15483
+I, [2017-12-02T03:53:49.677622 #15483]  INFO -- : worker=0 ready
+I, [2017-12-02T03:53:49.678456 #15480]  INFO -- : master process ready
+I, [2017-12-02T03:53:49.684087 #15486]  INFO -- : worker=1 spawned pid=15486
+I, [2017-12-02T03:53:49.684195 #15486]  INFO -- : worker=1 ready
+I, [2017-12-02T04:01:40.736689 #15480]  INFO -- : reaped #<Process::Status: pid 15486 exit 0> worker=1
+I, [2017-12-02T04:01:40.837012 #15480]  INFO -- : reaped #<Process::Status: pid 15483 exit 0> worker=0
+I, [2017-12-02T04:01:40.837127 #15480]  INFO -- : master complete
+I, [2017-12-02T04:01:49.400739 #15788]  INFO -- : Refreshing Gem list
+I, [2017-12-02T04:01:51.268580 #15788]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-12-02T04:01:51.268731 #15788]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-12-02T04:01:51.268807 #15788]  INFO -- : worker=0 spawning...
+I, [2017-12-02T04:01:51.270095 #15788]  INFO -- : worker=1 spawning...
+I, [2017-12-02T04:01:51.270633 #15791]  INFO -- : worker=0 spawned pid=15791
+I, [2017-12-02T04:01:51.270730 #15791]  INFO -- : worker=0 ready
+I, [2017-12-02T04:01:51.271480 #15788]  INFO -- : master process ready
+I, [2017-12-02T04:01:51.277798 #15794]  INFO -- : worker=1 spawned pid=15794
+I, [2017-12-02T04:01:51.277911 #15794]  INFO -- : worker=1 ready
+I, [2017-12-02T04:04:36.113750 #15788]  INFO -- : reaped #<Process::Status: pid 15791 exit 0> worker=0
+I, [2017-12-02T04:04:36.113863 #15788]  INFO -- : reaped #<Process::Status: pid 15794 exit 0> worker=1
+I, [2017-12-02T04:04:36.113916 #15788]  INFO -- : master complete
+I, [2017-12-02T04:04:39.556733 #15997]  INFO -- : Refreshing Gem list
+I, [2017-12-02T04:04:41.457514 #15997]  INFO -- : unlinking existing socket=/home/ubuntu/voteme/shared/sockets/unicorn.sock
+I, [2017-12-02T04:04:41.457657 #15997]  INFO -- : listening on addr=/home/ubuntu/voteme/shared/sockets/unicorn.sock fd=12
+I, [2017-12-02T04:04:41.457771 #15997]  INFO -- : worker=0 spawning...
+I, [2017-12-02T04:04:41.459048 #15997]  INFO -- : worker=1 spawning...
+I, [2017-12-02T04:04:41.460227 #15997]  INFO -- : master process ready
+I, [2017-12-02T04:04:41.464033 #16000]  INFO -- : worker=0 spawned pid=16000
+I, [2017-12-02T04:04:41.464128 #16000]  INFO -- : worker=0 ready
+I, [2017-12-02T04:04:41.468010 #16003]  INFO -- : worker=1 spawned pid=16003
+I, [2017-12-02T04:04:41.468103 #16003]  INFO -- : worker=1 ready

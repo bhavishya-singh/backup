@@ -96,8 +96,8 @@
             display: block;
             cursor: pointer;
           }
+	.public_poll_items_name{bottom: 10px;}
           a{
-            bottom: 10px;
             h2{
 
             }
@@ -120,7 +120,6 @@
           a {
             text-decoration: none;
             position: relative;
-            bottom: -200px;
 	    text-align: center;
 	    position: absolute;
             transition: all 0.5s ease;
@@ -128,10 +127,12 @@
               color: black;
             }
           }
+	.public_poll_items_name{bottom: -200px;}
           .end_poll_link{
             display: none;
             position: absolute;
             top: 10px;
+	    height: 20px;
           }
         }
       }
